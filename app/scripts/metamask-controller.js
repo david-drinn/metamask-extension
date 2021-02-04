@@ -2089,6 +2089,7 @@ export default class MetamaskController extends EventEmitter {
           this.alertController,
         ),
         findCustomRpcBy: this.findCustomRpcBy.bind(this),
+        getCurrentNetwork: this.getCurrentNetwork.bind(this),
         requestUserApproval: this.approvalController.addAndShowApprovalRequest.bind(
           this.approvalController,
         ),
